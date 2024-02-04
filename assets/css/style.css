@@ -1,0 +1,139 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway-VariableFont_wght.woff);
+    src: url(../fonts/Raleway-Italic-VariableFont_wght.woff);
+    src: url(../fonts/Raleway-VariableFont_wght.ttf),format(truetype);
+    src: url(../fonts/Raleway-Italic-VariableFont_wght.ttf),format(truetype);
+}
+h1, h2, h3 {
+  font-family: 'Lato', sans-serif;
+}
+p, ul, span {
+    font-family: "Raleway", sans-serif;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    width: 1160px;
+    padding: 0 15%;
+    margin: auto;
+    color: #000000;
+    background-color: #ffffff;
+    border: 3px solid #000000;
+}
+h1 {
+    margin-left: 8%;
+}
+header, main, footer{
+    background-color: #782221;
+}
+figure {
+    width: 150px;
+    height: 150px;
+    margin-top: 7%;
+}
+
+header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #dbc2a4;
+}
+header img:hover {
+cursor: zoom-in;
+}
+header section {
+    color: #ffffff;
+    margin-left: 40%;
+}
+address, p a {
+    color: #ffffff;
+    background-color: #2c1d27;
+    display: flex; 
+    flex-direction: row;
+    padding-left: 15px;
+    text-decoration: none;
+}
+address p a:hover {
+   text-decoration: underline;
+}
+
+header span {
+    padding-left: 25%;
+}
+header div {
+    padding-left: 30%;
+}
+main {
+    display: flex;
+    flex-direction: row;
+}
+aside {
+    width: 300px;
+    margin-right: 40px;
+}
+aside h2 {
+    padding-left: 20px;
+}
+aside p {
+    color: #ffffff;
+    text-align: justify;
+    text-indent: 25px;
+    margin-left: 20px;
+}
+aside ul li {
+    color: #ffffff;
+}
+main h2 {
+    background-color: #dbc2a4;
+}
+main div {
+    width: 820px;
+    background-color: #ffffff;
+    /* padding: 0 20px 0 30px; */
+}
+
+.main_content {
+    border-right:  3px solid #000000;
+    padding: 0 20px 0 30px;
+}
+.main_content h2 {
+    padding-left: 4px;
+    border-left: 7px solid #782221;
+}
+.main_content h2:hover {
+    border-right: 3px solid #782221;
+}
+/* .main_content h2:hover {
+    font-size: 5em;
+    cursor: zoom-in;
+} */
+footer figure {
+    width: 50px;
+    height: 50px;
+    margin: 15px ;
+    
+}
+footer img {
+    /* display: flex;
+    flex-direction: row; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+footer img:hover {
+opacity: 0.25;
+}
+footer section {
+    display: flex;
+    flex-direction: row;
+    padding-left: 40%;
+}
+small {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1em;
+}
